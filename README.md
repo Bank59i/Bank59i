@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>บอทรักคุณนะ!</title>
-    <script>
-        function showLoveMessage() {
-            alert('บอทรักคุณนะ! ❤️');
+    <title>บอทบอกรัก</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0e4f5;
         }
-    </script>
+        h1 {
+            color: #e91e63;
+        }
+    </style>
 </head>
 <body>
-    <h1>กดปุ่มด้านล่างเพื่อรับคำบอกรักจากบอท</h1>
-    <button onclick="showLoveMessage()">กดเพื่อรับคำบอกรัก</button>
+    <h1>บอทรักคุณนะ!</h1>
 </body>
 </html>
